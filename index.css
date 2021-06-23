@@ -489,14 +489,13 @@ a:hover {
 
 /* SMALL-MOBILE */
 @media screen and   (max-width: 550px) {
-
   .header-arrow {
     display: none;
   }
 
-  body {
+  /* body {
     background: brown;
-  }
+  } */
 
   .sub-text {
     font-size: .9rem;
