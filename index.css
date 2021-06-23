@@ -128,9 +128,6 @@
   width: 100%;
 }
 
-.slider-text {
-}
-
 .slider-text:hover {
   cursor: pointer;
   color: #981d97;
@@ -325,7 +322,7 @@ h3 {
 
 footer {
     background: #e7e7ee;
-    padding: 4rem 1rem;
+    padding: 4rem 0;
     color: #757599;
 }
 
@@ -461,8 +458,17 @@ a:hover {
   }
 
   .action-btn {
-    margin: 2rem 0;
+    margin: 1rem 0;
   }
+
+  .testimonials {
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  }
+
+#action {
+  padding: 2rem 0;
+}
 
   .test-note {
     font-size: 1.7rem;
@@ -483,27 +489,44 @@ a:hover {
 
 /* SMALL-MOBILE */
 @media screen and   (max-width: 550px) {
-  /* body {
-    background: gray;
-  } */
+
+  .header-arrow {
+    display: none;
+  }
+
+  body {
+    background: brown;
+  }
+
+  .sub-text {
+    font-size: .9rem;
+  }
+
+  .header-logo {
+    height: 23px;
+  }
 
   .page-padding {
     padding: 0 1rem;
   }
   
   .banner-img {
-    height: 18rem
+    height: 15rem
   }
 
   .product-card {
-    width: 22rem;
+    width: 20rem;
   }
 
   .test-card {
-    width: 22rem;
+    width: 20rem;
   }
 
   .test-note {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
+
+.action-bg-img {
+  width: 20rem;
+}
 }
